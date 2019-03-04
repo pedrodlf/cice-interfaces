@@ -13,5 +13,4 @@ public interface PartidoService {
 	public List<Jugador> listaDeTitulares();
 	public List<Jugador> listaDeConvocados();
 
-
 }
