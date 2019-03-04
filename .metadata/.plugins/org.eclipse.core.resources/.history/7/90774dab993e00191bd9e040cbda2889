@@ -1,0 +1,58 @@
+package com.cice.gestionequipo.entidades;
+
+import java.util.List;
+
+public class Entrenador extends Personal{
+
+	private String nacionalidad;
+	private boolean comunitario;
+	private List<String> equiposAnteriores;
+	private List<String> palmares;
+	public Entrenador() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Entrenador(int id, String nombre, String apellido, double salario) {
+		super(id, nombre, apellido, salario);
+		// TODO Auto-generated constructor stub
+	}
+	public Entrenador(String nacionalida, boolean comunitario, List<String> equiposAnteriores, List<String> palmares) {
+		super();
+		this.nacionalidad = nacionalida;
+		this.comunitario = comunitario;
+		this.equiposAnteriores = equiposAnteriores;
+		this.palmares = palmares;
+	}
+	public String getNacionalida() {
+		return nacionalidad;
+	}
+	public void setNacionalida(String nacionalida) {
+		this.nacionalidad = nacionalida;
+	}
+	public boolean isComunitario() {
+		return comunitario;
+	}
+	public void setComunitario(boolean comunitario) {
+		this.comunitario = comunitario;
+	}
+	public List<String> getEquiposAnteriores() {
+		return equiposAnteriores;
+	}
+	public void setEquiposAnteriores(List<String> equiposAnteriores) {
+		this.equiposAnteriores = equiposAnteriores;
+	}
+	public List<String> getPalmares() {
+		return palmares;
+	}
+	public void setPalmares(List<String> palmares) {
+		this.palmares = palmares;
+	}
+	@Override
+	public String toString() {
+		return "Entrenador [nacionalida=" + nacionalidad + ", comunitario=" + comunitario + ", equiposAnteriores="
+				+ equiposAnteriores + ", palmares=" + palmares + "]";
+	}
+	
+	
+	
+}

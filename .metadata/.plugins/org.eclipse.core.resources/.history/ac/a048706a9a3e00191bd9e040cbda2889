@@ -1,0 +1,38 @@
+package com.cice.gestionequipo.entidades;
+
+public class Utillero extends Personal {
+
+	
+	private boolean viaja;
+
+	public Utillero() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Utillero(int id, String nombre, String apellido, double salario) {
+		super(id, nombre, apellido, salario);
+		// TODO Auto-generated constructor stub
+	}
+
+	public Utillero(boolean viaja) {
+		super();
+		this.viaja = viaja;
+	}
+
+	public boolean isViaja() {
+		return viaja;
+	}
+
+	public void setViaja(boolean viaja) {
+		this.viaja = viaja;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString()+ " Utillero [viaja=" + viaja + "]";
+	}
+	
+	
+	
+}

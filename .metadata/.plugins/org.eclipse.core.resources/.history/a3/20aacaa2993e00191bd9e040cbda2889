@@ -1,0 +1,5 @@
+package com.cice.gestionequipo.entidades;
+
+public class Entrenador {
+
+}
