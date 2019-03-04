@@ -1,0 +1,42 @@
+package com.cice.gestionequipo.dao;
+
+import java.util.List;
+
+import com.cice.gestionequipo.entidades.Entrenador;
+import com.cice.gestionequipo.entidades.Jugador;
+import com.cice.gestionequipo.entidades.Personal;
+
+public class DataSource {
+
+	public static List<Personal> personal;
+	public static List<Entrenador> entrenadores;
+	public static List<Jugador> jugadores;
+	public DataSource() {
+		super();
+		Entrenador entrenador = new Entrenador(1, "Pep", "Guardiola", 8000000.00);
+		Entrenador entrenador2 = new Entrenador(2, "Jose", "Mohurinio", 10000000.00);
+		Jugador jugador = new Jugador(3, "Lionel", "Messi", 15000000.00);
+		Jugador jugador2 = new Jugador(4, "Iker", "Casillas", 5000000.00);
+		Jugador jugador3 = new Jugador(5, "Pepe", "Feo y Calvo", 3000000.00);
+		Jugador jugador4 = new Jugador(6, "Cristiano", "Ronaldo", 25000000.00);
+		Jugador jugador5 = new Jugador(7, "Favio", "Canavaro", 2000000.00);
+		Jugador jugador6 = new Jugador(8, "", "Casillas", 1000000.00);
+		Jugador jugador7 = new Jugador(9, "Roberto", "Soldado", 5000000.00);
+		Jugador jugador8 = new Jugador(10, "Sergio", "Ramos", 5000000.00);
+		Jugador jugador9 = new Jugador(11, "Juan", "Batistao", 5000000.00);
+		Jugador jugador10 = new Jugador(12, "Tomas", "Turbado", 2000000.00);
+		Jugador jugador11 = new Jugador(13, "Robinson", "Crusoe", 5000000.00);
+		Jugador jugador12 = new Jugador(14, "Paquito", "Casillas", 5000000.00);
+		Jugador jugador13 = new Jugador(15, "Juaquin", "Cachondo", 5000000.00);
+		Jugador jugador14 = new Jugador(16, "Andres", "Iniesta", 5000000.00);
+		Jugador jugador15 = new Jugador(17, "Raul", "Bravo", 5000000.00);
+	
+		
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.cice.gestionequipo.dao;
+
+public class DataSource {
+
+}
